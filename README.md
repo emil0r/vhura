@@ -68,6 +68,8 @@ Read more at https://www.yubico.com/
 ;;            (.getStatus response))}
 ```
 
+Separate namespace vhura.client for wrapper operations on the YubicoClient class that's returned from vhura.core/get-client.
+
 ## License
 
 Copyright © 2015 Emil Bengtsson

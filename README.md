@@ -7,6 +7,11 @@ Wrapper for the Yubikey java validation client
 
 Read more at https://www.yubico.com/
 
+## Dependancy
+
+```clojure
+[vhura "1.0"]
+```
 
 ## Usage
 

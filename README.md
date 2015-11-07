@@ -7,6 +7,11 @@ Wrapper for the Yubikey java validation client
 
 Read more at https://www.yubico.com/
 
+## Dependancy
+
+```clojure
+[vhura "1.0"]
+```
 
 ## Usage
 
@@ -67,6 +72,8 @@ Read more at https://www.yubico.com/
 ;;            ;; missing an enum
 ;;            (.getStatus response))}
 ```
+
+Separate namespace vhura.client for wrapper operations on the YubicoClient class that's returned from vhura.core/get-client.
 
 ## License
 

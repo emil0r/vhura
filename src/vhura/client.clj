@@ -1,4 +1,5 @@
-(ns vhura.client)
+(ns vhura.client
+  (:import [com.yubico.client.v2 YubicoClient]))
 
 
 (defn get-id [client]
@@ -31,8 +32,8 @@
   (.setUserAgent client useragent)
   client)
 
-(defn get-public-id [client otp]
-  (.getPublicId client otp))
+(defn get-public-id [otp]
+  (YubicoClient/getPublicId otp))
 
-(defn valid-otp-format? [client otp]
-  (.isValidOTPFormat client otp))
+(defn valid-otp-format? [otp]
+  (YubicoClient/isValidOTPFormat otp))

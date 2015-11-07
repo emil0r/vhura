@@ -1,4 +1,4 @@
-(defproject vhura "1.0"
+(defproject vhura "1.0.1"
   :description "Wrapper for the Yubikey java validation client"
   :url "https://github.com/emil0r/vhura"
   :license {:name "Eclipse Public License"

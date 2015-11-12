@@ -10,7 +10,7 @@ Read more at https://www.yubico.com/
 ## Dependancy
 
 ```clojure
-[vhura "1.0"]
+[vhura "1.0.1"]
 ```
 
 ## Usage
